@@ -19,9 +19,14 @@ nav{
 	margin-left: 40px;
 	list-style-type: none;
 }
+<<<<<<< HEAD
 li{
 	float: left;
 	list-style: none;
+=======
+nav ul li{
+	float: left;
+>>>>>>> fe794bd1fa1e9437bfcd2616326c1b4e70d5888a
 	padding-right: 15px;
 }
 .imagen{
@@ -33,11 +38,18 @@ li{
 	margin: 17px;
 	width: 160px;
 }
+.contenedor2{
+	width: 700px;
+}
 .caja{
     position: relative;
  }
 .clear{
 	clear: both;
+}
+.bloque .caja{
+	width: 120px;
+	
 }
 .hijo{
 	position: absolute;
@@ -51,8 +63,13 @@ li{
 }
 .caja .hijo{
 	position: absolute;
+<<<<<<< HEAD
 	width: 100%;
     height: 98%;
+=======
+	width: 220px;
+    height: 220px;
+>>>>>>> fe794bd1fa1e9437bfcd2616326c1b4e70d5888a
     background: rgba(0, 0, 0, .6);
     color: #FFF;
 }
@@ -63,15 +80,30 @@ li{
 	margin-bottom: 5px;
 	color: white;
 }
+<<<<<<< HEAD
 .iga{
 	width: 160px;
 	height: 70%;
+=======
+.va{
+	width: 80px;
+	height:5px; 
+	border-bottom: 2px solid black;
+	margin-left: 300px;
+	margin-bottom: 8px;
+}
+.vacio{
+	width: 50px;
+	height:5px; 
+	border-bottom: 2px solid black;
+>>>>>>> fe794bd1fa1e9437bfcd2616326c1b4e70d5888a
 }
 .parrafo{
 	text-align: center;
 	padding: 10px;
 	width: 400px;
 	margin-left: 150px;
+<<<<<<< HEAD
 }
 .va{
 	width: 80px;
@@ -150,4 +182,6 @@ p{
 }
 .cli{
 	clear: both;
+=======
+>>>>>>> fe794bd1fa1e9437bfcd2616326c1b4e70d5888a
 }
