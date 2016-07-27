@@ -1,5 +1,5 @@
 .con{
-	margin: 0 auto;
+	margin: 5% 20%;
 	width: 90%;
 }
 header{
@@ -7,24 +7,31 @@ header{
 	width: 900px;
 }
 nav{
-	width: 900px;
-	height: 60px;
+	width: 73%;
+	height: 50px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin: 20px;
 }
+.caj{
+	border-right: 1px solid black;
+	float: left;
+	margin-left: 40px;
+	list-style-type: none;
+}
 li{
 	float: left;
 	list-style: none;
-	margin: 10px;
+	padding-right: 15px;
 }
 .imagen{
-	width: 600px;
+	width: 55%;
 	margin: 20px;
 }
 .bloque{
 	float: left;
-	margin: 8px;
+	margin: 17px;
+	width: 160px;
 }
 .caja{
     position: relative;
@@ -39,9 +46,12 @@ li{
 	margin-bottom: 5px;
 	color: white;
 }
+.cajota{
+	margin-left: 30px;
+}
 .caja .hijo{
 	position: absolute;
-	width: 99%;
+	width: 100%;
     height: 98%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -53,8 +63,91 @@ li{
 	margin-bottom: 5px;
 	color: white;
 }
+.iga{
+	width: 160px;
+	height: 70%;
+}
 .parrafo{
 	text-align: center;
 	padding: 10px;
 	width: 400px;
+	margin-left: 150px;
+}
+.va{
+	width: 80px;
+	height:5px; 
+	border-bottom: 2px solid black;
+	margin-left: 300px;
+	margin-bottom: 8px;
+}
+.vacio{
+	width: 50px;
+	height:5px; 
+	border-bottom: 2px solid black;
+}
+.codcon{
+	width: 70%;
+	height:1170px;
+	margin:200px;
+	border:2px solid gray;
+}
+.radius{
+	border-radius: 50%;
+	margin-left: 37%;
+	margin-top: 90px;
+	width: 60;
+}
+h1 , p{
+	width: 500px;
+	margin-left: 180px;
+	text-align: center;
+}
+h2{
+	margin-left: 40px;
+}
+.inp{
+	display: block;
+	margin: 10px 20px 10px 40px;
+}
+p{
+	font-size: 20px
+
+}
+.in{
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-top: 10px;
+	color: white;
+	
+}
+.inp1{
+	width: 600px;
+	background-color:gray;
+	margin-left: 20px;
+	height: 40px;
+}
+.inp2{
+	width: 450px;
+	background-color: gray;
+	margin-left: 20px;
+	height: 40px;
+}
+.inp3{
+	width: 220px;
+	background-color: gray;
+	margin-left: 20px;
+	height: 40px;
+}
+.detimg{
+	width: 900px;
+	float: left;
+	margin-left: 100px;
+}
+.det2{
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+.cli{
+	clear: both;
 }
