@@ -1,5 +1,5 @@
 .con{
-	margin: 0 auto;
+	margin: 5% 20%;
 	width: 90%;
 }
 header{
@@ -7,30 +7,42 @@ header{
 	width: 900px;
 }
 nav{
-	width: 900px;
-	height: 60px;
+	width: 73%;
+	height: 50px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin: 20px;
 }
-li{
+.caj{
+	border-right: 1px solid black;
 	float: left;
-	list-style: none;
-	margin: 10px;
+	margin-left: 40px;
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+	padding-right: 15px;
 }
 .imagen{
-	width: 600px;
+	width: 55%;
 	margin: 20px;
 }
 .bloque{
 	float: left;
 	margin: 8px;
 }
+.contenedor2{
+	width: 700px;
+}
 .caja{
     position: relative;
  }
 .clear{
 	clear: both;
+}
+.bloque .caja{
+	width: 120px;
+	
 }
 .hijo{
 	position: absolute;
@@ -41,8 +53,8 @@ li{
 }
 .caja .hijo{
 	position: absolute;
-	width: 99%;
-    height: 98%;
+	width: 220px;
+    height: 220px;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
 }
@@ -53,8 +65,21 @@ li{
 	margin-bottom: 5px;
 	color: white;
 }
+.va{
+	width: 80px;
+	height:5px; 
+	border-bottom: 2px solid black;
+	margin-left: 300px;
+	margin-bottom: 8px;
+}
+.vacio{
+	width: 50px;
+	height:5px; 
+	border-bottom: 2px solid black;
+}
 .parrafo{
 	text-align: center;
 	padding: 10px;
 	width: 400px;
+	margin-left: 150px;
 }
