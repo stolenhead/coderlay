@@ -1,0 +1,60 @@
+.con{
+	margin: 0 auto;
+	width: 90%;
+}
+header{
+	background-color: white;
+	width: 900px;
+}
+nav{
+	width: 900px;
+	height: 60px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 20px;
+}
+li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+.imagen{
+	width: 600px;
+	margin: 20px;
+}
+.bloque{
+	float: left;
+	margin: 8px;
+}
+.caja{
+    position: relative;
+ }
+.clear{
+	clear: both;
+}
+.hijo{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 5px;
+	color: white;
+}
+.caja .hijo{
+	position: absolute;
+	width: 99%;
+    height: 98%;
+    background: rgba(0, 0, 0, .6);
+    color: #FFF;
+}
+.hijo2{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 5px;
+	color: white;
+}
+.parrafo{
+	text-align: center;
+	padding: 10px;
+	width: 400px;
+}
