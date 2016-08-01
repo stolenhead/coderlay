@@ -1,184 +1,115 @@
-.con{
-	margin: 5% 20%;
-	width: 90%;
+.linea-izquierda{
+	border-bottom: 3px solid black;
+	width: 10%;
+	margin: 20px 0;
 }
-header{
-	background-color: white;
-	width: 900px;
+
+.linea-centrada{
+	border-bottom: 2px solid gray;
+	width: 10%;
+	margin: 25px auto;
 }
+
+.perfil{
+	width: 33.33%;
+	float: left;
+	padding: 15px;
+	position: relative;
+	font-size: 0px; <!-- Se necesita porque hay una diferencia de 4px si no se coloca -->
+}
+
+img{
+	width: 100%;
+}
+
+.overlay{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+}
+
+.gray{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.texto{
+	font-size: 14px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: white;
+}
+
 nav{
-	width: 73%;
-	height: 50px;
+	width: 100%;
+	font-size: 22px;
+	text-align: center;
+	margin: 5% auto;
+	padding: 2% 0;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	margin: 20px;
 }
-.caj{
-	border-right: 1px solid black;
-	float: left;
-	margin-left: 40px;
-	list-style-type: none;
-}
-.caj6{
-	margin-left: 40px;
-}
-li{
-	float: left;
-	list-style: none;
-	padding-right: 15px;
-}
-.imagen{
-	width: 55%;
-	margin: 20px;
-}
-.bloque{
-	float: left;
-	margin: 17px;
-	width: 160px;
-}
-.contenedor2{
-	width: 700px;
-}
-.caja{
-    position: relative;
- }
-.clear{
-	clear: both;
-}
-.bloque .caja{
-	width: 120px;
-	
-}
-.hijo{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	margin-bottom: 5px;
-	color: white;
-}
-.cajota{
-	margin-left: 30px;
-}
-.vinc{
+
+nav a{
+	margin: 2%;
 	text-decoration: none;
 	color:black;
-	font-weight: bold;
-	font-size: 17px;
 }
-.vinc:hover{
-	color:gray;
-}
-.caja .hijo{
-	position: absolute;
-	width: 100%;
-    height: 98%;
-    background: rgba(0, 0, 0, .6);
-    color: #FFF;
-}
-.hijo2{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	margin-bottom: 5px;
-	color: white;
-}
-.iga{
-	width: 160px;
-	height: 70%;
-}
-.va{
-	width: 80px;
-	height:5px; 
-	border-bottom: 2px solid black;
-	margin-left: 300px;
-	margin-bottom: 8px;
-}
-.vacio{
-	width: 50px;
-	height:5px; 
-	border-bottom: 2px solid black;
-}
+
 .parrafo{
 	text-align: center;
-	padding: 10px;
-	width: 400px;
-	margin-left: 150px;
+	font-size: 24px;
+	margin: 2% 10%;
 }
-.va{
-	width: 80px;
-	height:5px; 
-	border-bottom: 2px solid black;
-	margin-left: 300px;
-	margin-bottom: 8px;
+
+.coder-details {
+  margin: 15px auto;
+  border: 1px solid gray;
+  padding: 2%;
 }
-.vacio{
-	width: 50px;
-	height:5px; 
-	border-bottom: 2px solid black;
+
+.foto{
+	width: 20%;
+	margin: 0 auto;
 }
-.codcon{
-	width: 70%;
-	height:1190px;
-	margin:200px;
-	border:2px solid gray;
+
+.foto img{
+	border-radius: 100%;
 }
-.radius{
-	border-radius: 50%;
-	margin-left: 37%;
-	margin-top: 90px;
-	width: 60;
-}
-h1 , p{
-	width: 500px;
-	margin-left: 180px;
+
+.center{
 	text-align: center;
 }
-h2{
-	margin-left: 40px;
-}
-.inp{
-	display: block;
-	margin: 10px 20px 10px 40px;
-}
-p{
-	font-size: 20px
 
-}
-.in{
-	margin-top: 20px;
-	margin-left: 10px;
-	padding-top: 10px;
+.barra{
+	background-color: gray;
+	padding:2.5%;
+	margin: 5%;
 	color: white;
-	
 }
-.inp1{
-	width: 600px;
-	background-color:gray;
-	margin-left: 20px;
-	height: 40px;
+
+.large{
+	width: 75%;
 }
-.inp2{
-	width: 450px;
-	background-color: gray;
-	margin-left: 20px;
-	height: 40px;
+
+.medium{
+	width: 50%;
 }
-.inp3{
-	width: 220px;
-	background-color: gray;
-	margin-left: 20px;
-	height: 40px;
+
+.small{
+	width: 25%;
 }
-.detimg{
-	width: 900px;
-	float: left;
-	margin-left: 100px;
+
+.bio{
+	padding: 5%;
 }
-.det2{
-	width: 200px;
-	float: left;
-	margin: 10px;
-}
-.cli{
-	clear: both;
+
+.grid-portafolio{
+	padding: 2%;
 }
